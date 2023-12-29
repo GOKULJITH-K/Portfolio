@@ -9,13 +9,13 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background: #080808;
-    color: #fff;
+    background: white;
+    color: black;
 }
 #header{
     width: 100%;
     height: 100vh;
-    background-image:url(profile1.png),linear-gradient(rgba(0,0,0,0.6),rgb(9, 78, 143));
+    background-image:url(profile1.png),linear-gradient(rgba(0,0,0,0.6),rgb(48, 198, 108)),url(3421131.jpg);
     background-size: cover;
     background-position: 445px;
 }
@@ -47,7 +47,7 @@ nav ul li a::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #065c8d;
+    background: rgb(8, 15, 37);
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -74,12 +74,16 @@ nav ul li a:hover::after{
     font-size: 25px;
 }
 .header-text span{
-    color: #065c8d;
+    color: rgb(8, 15, 37);
 }
 
 #about{
     padding: 80px 0;
-    color: #fff;
+    color: black;
+}
+#general{
+    padding: 5px 0;
+    color: black;
 }
 .row{
     display: flex;
@@ -99,7 +103,7 @@ nav ul li a:hover::after{
 .sub-title{
     font-size: 60px;
     font-weight: 600;
-    color: #fff;
+    color: black;
 }
 .tab-titles{
     display: flex;
@@ -116,7 +120,7 @@ nav ul li a:hover::after{
     content: '';
     width: 0;
     height: 3px;
-    background: rgb(9, 78, 143);
+    background: rgb(8, 15, 37);
     left: 0;
     position: absolute;
     bottom: -8px;
@@ -130,7 +134,7 @@ nav ul li a:hover::after{
     margin: 10px 0;
 }
 .tab-contents ul li span{
-    color: rgb(9, 78, 143);
+    color: rgb(8, 15, 37);
     font-size: 14px;
 }
 .tab-contents{
@@ -151,7 +155,7 @@ nav ul li a:hover::after{
     margin-top: 50px;
 }
 .project-list div{
-    background: rgb(9, 78, 143);
+    background: rgb(8, 15, 37);
     padding: 40px;
     font-size: 13px;
     font-weight: 300;
@@ -164,6 +168,7 @@ nav ul li a:hover::after{
 }
 .project-list div h2{
     font-size: 30px;
+    color: white;
     font-weight: 500;
     margin-bottom: 15px;
 }
@@ -174,8 +179,11 @@ nav ul li a:hover::after{
     margin-top: 20px;
     display: inline-block;
 }
+.project-list div p{
+    color: white;
+}
 .project-list div:hover{
- background: grey;
+ background: rgb(18, 100, 51);
  transform: translateY(-10px);
 
 }
@@ -202,7 +210,7 @@ nav ul li a:hover::after{
 .layer{
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgba(0,0,0,0.6),rgb(9, 78, 143));
+    background: linear-gradient(rgba(0, 0, 0, 0.877),rgb(48, 198, 108));
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -215,6 +223,7 @@ nav ul li a:hover::after{
     padding: 0 40px;
     text-align: center;
     font-size: 14px;
+    color: white;
 
 }
 .layer h3{
@@ -223,7 +232,7 @@ nav ul li a:hover::after{
 }
 .layer a{
     margin-top: 20px;
-    color: rgb(9, 78, 143);
+    color: rgb(8, 15, 37);
     text-decoration: none;
     font-size: 18px;
     line-height: 60px;
@@ -241,16 +250,16 @@ nav ul li a:hover::after{
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid rgb(9, 78, 143);
+    border: 1px solid rgb(8, 15, 37);
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
-    color: white;
+    color: black;
     transition: background 0.5s;
 
 }
 .btn:hover{
-    background: #065c8d;
+    background: rgb(8, 15, 37);
 }
 
 .contact-left{
@@ -265,7 +274,7 @@ nav ul li a:hover::after{
 
 }
 .contact-left p i{
-    color: #065c8d;
+    color: rgb(8, 15, 37);
     margin-right: 15px;
     font-size: 25px;
 }
@@ -277,17 +286,18 @@ nav ul li a:hover::after{
     text-decoration: none;
     font-size: 30px;
     margin-right: 15px;
-    color: white;
+    color: black;
     display: inline-block;
     transition: transform 0.5s;
 }
 .social-icons a:hover{
-    color: #065c8d;
+    color: rgb(8, 15, 37);
     transform: translateY(-5px);
 }
 .btn.btn2{
     display: inline-block;
-    background: #065c8d;
+    background: rgb(8, 15, 37);
+    color: white;
 }
 .contact-right form{
     width: 100%;
@@ -296,10 +306,10 @@ form input,form textarea{
     width: 100%;
     border: 0;
     outline: none;
-    background: #262626;
+    background: rgb(198, 207, 155);
     padding: 15px;
     margin: 15px 0;
-    color: grey;
+    color: black;
     font-size: 18px;
     border-radius: 6px;
 }
@@ -313,7 +323,8 @@ form btn2{
     width: 100%;
     text-align: center;
     padding: 25px 0;
-    background: #262626;
+    color: white;
+    background: rgb(8, 15, 37);
     font-weight: 300;
     margin-top: 25px;
 
@@ -321,41 +332,56 @@ form btn2{
 nav .fas{
     display: none;
 }
-@media only screen and (max-width:700px) {
+@media only screen and (max-width:800px) {
 
     #header{
-        background-image:linear-gradient(rgba(0, 0, 0, 0.319),rgba(9, 78, 143, 0.396)),url(IMG_0917.png);
-        background-position: 30px;
+        background-image:url(IMG_0917.png),linear-gradient(rgba(0, 0, 0, 0.319),rgba(27, 194, 94, 0.581));
+        background-position: 5px;
        
 
 
     }
     .header-text{
+        background-color: rgba(27, 194, 94, 0.581);
+        border-radius: 10px;
         margin-top: 450px;
+        width: auto;
         font-size: 16px;
-        margin-left: 0;
+        padding: 20px;
+        transition: transform 0.5s;
+
+    }
+    .header-text:hover{
+        background-color:white;
+        color: black;
+        transform: scale(1.1);
 
     }
     .header-text h1{
-        font-size: 35px;
+        font-size: 30px;
         margin-left: 0;
     }
     .header-text h3{
-        font-size: 18px;
+        font-size: 16px;
     }
     .header-text p{
         font-size: 16px;
     }
     nav .fas{
         display: block;
-        font-size: 25px
+        font-size: 25px;
+        margin-top: 10px;
+        margin-right: 100%;
+
+
+
     }
     nav ul{
-        background: #065c8d;
+        background: rgb(8, 15, 37);
         position: fixed;
         top: 0;
-        right: -100%;
-        width: 100%;
+        left: -60%;
+        width: 60%;
         height: 100vh;
         padding-top: 50px;
         z-index: 2;
@@ -364,17 +390,18 @@ nav .fas{
     }
     nav ul li{
         display: block;
-        margin: 25px;
+        margin: 20px;
         font-weight: 600;
         font-size: x-large;
-        padding-top: 25px;
-        padding-left: 50px;
+        padding-top: 20px;
+        padding-left: 10px;
     }
     nav ul .fas{
         position: absolute;
         top: 25px;
-        left: 25px;
+        left: 170px;
         cursor: pointer;
+        color: white;
     }
     .sub-title{
         font-size: 40px;
