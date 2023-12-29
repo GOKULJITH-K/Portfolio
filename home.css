@@ -101,9 +101,11 @@ nav ul li a:hover::after{
     flex-basis: 60%;
 }
 .sub-title{
-    font-size: 60px;
+    font-size: 40px;
+    margin: 30px;
     font-weight: 600;
     color: black;
+    text-align: center;
 }
 .tab-titles{
     display: flex;
@@ -335,31 +337,35 @@ nav .fas{
 @media only screen and (max-width:800px) {
 
     #header{
-        background-image:url(IMG_0917.png),linear-gradient(rgba(0, 0, 0, 0.319),rgba(27, 194, 94, 0.581));
+        background-image:url(IMG_0917.png),linear-gradient(rgba(230, 220, 220, 0.319),rgba(27, 194, 94, 0.581));
         background-position: 5px;
+        
+        
        
 
 
     }
     .header-text{
-        background-color: rgba(27, 194, 94, 0.581);
-        border-radius: 10px;
-        margin-top: 450px;
+    
+        
+        margin-top: 200px;
         width: auto;
         font-size: 16px;
-        padding: 20px;
+        overflow: hidden;
         transition: transform 0.5s;
 
     }
     .header-text:hover{
         background-color:white;
+        border-radius: 10px;
         color: black;
         transform: scale(1.1);
+        padding: 20px;
 
     }
     .header-text h1{
-        font-size: 30px;
-        margin-left: 0;
+        font-size: 25px;
+        margin-left: 0px;
     }
     .header-text h3{
         font-size: 16px;
@@ -404,7 +410,10 @@ nav .fas{
         color: white;
     }
     .sub-title{
-        font-size: 40px;
+        font-size: 30px;
+        text-align: center;
+        font-weight: 800;
+        
 
     }
     .about-col-1,.about-col-2{
