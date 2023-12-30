@@ -414,8 +414,8 @@ nav .fas{
         background:linear-gradient(rgba(230, 220, 220, 0.821),rgb(0, 129, 112));
         position: fixed;
         top: 0;
-        left: -70%;
-        width: 70%;
+        left: -65%;
+        width: 65%;
         height: 100vh;
         padding-top: 50px;
         z-index: 2;
