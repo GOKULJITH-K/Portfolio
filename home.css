@@ -363,7 +363,7 @@ nav .fas{
         background-color:white;
         border-radius: 10px;
         color: black;
-        transform: scale(1.2);
+        transform: scale(1.1);
         padding: 20px;
         writing-mode: initial;
         
@@ -372,11 +372,11 @@ nav .fas{
     }
     
     .header-text h1{
-        font-size: 30px;
+        font-size: 25px;
         margin-left: 0px;
         text-orientation: upright;
         background-color: white;
-        padding: 5px;
+        padding: 10px;
         border-radius: 10px;
         
       
@@ -388,7 +388,7 @@ nav .fas{
         
     }
     .header-text p{
-        font-size: 16px;
+        font-size: 14px;
         padding-top: 15px;
         
     }
