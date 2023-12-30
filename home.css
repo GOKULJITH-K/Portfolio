@@ -353,6 +353,8 @@ nav .fas{
         font-size: 16px;
         overflow: hidden;
         transition: transform 0.5s;
+        writing-mode: vertical-lr;
+        
 
     }
     .header-text:hover{
@@ -361,11 +363,14 @@ nav .fas{
         color: black;
         transform: scale(1.1);
         padding: 20px;
+        writing-mode: initial;
 
     }
     .header-text h1{
         font-size: 25px;
         margin-left: 0px;
+        text-orientation: upright;
+        
     }
     .header-text h3{
         font-size: 16px;
