@@ -74,7 +74,7 @@ nav ul li a:hover::after{
     font-size: 25px;
 }
 .header-text span{
-    color: rgb(8, 15, 37);
+    color: black;
 }
 
 #about{
@@ -83,7 +83,9 @@ nav ul li a:hover::after{
 }
 #general{
     padding: 5px 0;
-    color: black;
+    color: white;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgb(0, 129, 112));
+    padding: 40px 0px 40px;
 }
 .row{
     display: flex;
@@ -95,10 +97,14 @@ nav ul li a:hover::after{
 }
 .about-col-1 img{
     width: 100%;
+    height: 100%;
     border-radius: 15px;
 }
 .about-col-2{
     flex-basis: 60%;
+}
+.about-col-2 p{
+    padding-top: 40px;
 }
 .sub-title{
     font-size: 40px;
@@ -136,8 +142,9 @@ nav ul li a:hover::after{
     margin: 10px 0;
 }
 .tab-contents ul li span{
-    color: rgb(8, 15, 37);
-    font-size: 14px;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
 }
 .tab-contents{
     display: none;
@@ -266,6 +273,7 @@ nav ul li a:hover::after{
 
 .contact-left{
     display: flex;
+    
 
 }
 .contact-right{
@@ -279,6 +287,15 @@ nav ul li a:hover::after{
     color: rgb(15, 15, 15);
     margin-right: 15px;
     font-size: 35px;
+}
+.resume a{
+    margin-top: 30px;
+    font-size: 20px;
+}
+.resume a i{
+    color: white;
+    margin-right: 15px;
+    font-size: 20px;
 }
 .social-icons{
     margin-top: 30px;
@@ -348,7 +365,7 @@ nav .fas{
     .header-text{
     
         
-        margin-top: 150px;
+        margin-top: 135px;
         width: auto;
         font-size: 16px;
         overflow: hidden;
@@ -362,6 +379,10 @@ nav .fas{
     .special{
         padding: 0px;
     }
+   .contact-left{
+    margin-top: 20px;
+    padding-bottom: 0px;
+   }
     
     .header-text:hover{
         background-color:white;
@@ -473,8 +494,9 @@ nav .fas{
         display: inline-block;
         background: rgb(15, 15, 15);
         color: white;
-        padding: 10px;
-        border-radius: 20px;
+        padding: 15px;
+        border-radius: 10px;
+        
     }
 
 }
