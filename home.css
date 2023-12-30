@@ -366,6 +366,8 @@ nav .fas{
         transform: scale(1.1);
         padding: 20px;
         writing-mode: initial;
+        background-color: transparent;
+        padding: none;
 
     }
     .header-text h1{
