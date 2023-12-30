@@ -265,7 +265,7 @@ nav ul li a:hover::after{
 }
 
 .contact-left{
-    flex-basis: 35%;
+    display: flex;
 
 }
 .contact-right{
@@ -278,7 +278,7 @@ nav ul li a:hover::after{
 .contact-left p i{
     color: rgb(15, 15, 15);
     margin-right: 15px;
-    font-size: 25px;
+    font-size: 35px;
 }
 .social-icons{
     margin-top: 30px;
@@ -468,6 +468,13 @@ nav .fas{
     }
     .copyright{
         font-size: 14px;
+    }
+    .btn.btn2{
+        display: inline-block;
+        background: rgb(15, 15, 15);
+        color: white;
+        padding: 10px;
+        border-radius: 20px;
     }
 
 }
