@@ -157,7 +157,7 @@ nav ul li a:hover::after{
     margin-top: 50px;
 }
 .project-list div{
-    background: linear-gradient(rgba(0, 0, 0, 0.877),rgb(0, 129, 112));
+    background: linear-gradient(rgba(0, 0, 0, 0.877),rgb(0, 91, 65));
     padding: 40px;
     font-size: 13px;
     font-weight: 300;
