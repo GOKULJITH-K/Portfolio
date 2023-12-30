@@ -411,11 +411,11 @@ nav .fas{
 
     }
     nav ul{
-        background: rgb(8, 15, 37);
+        background:linear-gradient(rgba(230, 220, 220, 0.821),rgb(0, 129, 112));
         position: fixed;
         top: 0;
-        left: -60%;
-        width: 60%;
+        left: -70%;
+        width: 70%;
         height: 100vh;
         padding-top: 50px;
         z-index: 2;
@@ -429,13 +429,17 @@ nav .fas{
         font-size: x-large;
         padding-top: 20px;
         padding-left: 10px;
+        
+    }
+    nav ul li a{
+         color: black;
     }
     nav ul .fas{
         position: absolute;
         top: 25px;
         left: 170px;
         cursor: pointer;
-        color: white;
+        color: black;
     }
     .sub-title{
         font-size: 30px;
