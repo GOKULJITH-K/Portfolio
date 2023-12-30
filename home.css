@@ -380,7 +380,7 @@ nav .fas{
         padding: 0px;
     }
    .contact-left{
-    margin-top: 20px;
+    margin-top: 10px;
     padding-bottom: 0px;
    }
     
@@ -494,7 +494,7 @@ nav .fas{
         display: inline-block;
         background: rgb(15, 15, 15);
         color: white;
-        padding: 15px;
+        padding: 8px 15px 8px;
         border-radius: 10px;
         
     }
