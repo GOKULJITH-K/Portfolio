@@ -63,6 +63,9 @@ nav ul li a:hover::after{
   
 
 }
+.header-text img{
+    display: none;
+}
 .header-text h1{
     font-size: 60px;
     margin-top: 20px;
@@ -81,6 +84,7 @@ nav ul li a:hover::after{
 #about{
     padding: 80px 0;
     color: black;
+    background-image: url(—Pngtree—square\ background_5412615.png);
 }
 #general{
     padding: 5px 0;
@@ -143,7 +147,7 @@ nav ul li a:hover::after{
     margin: 10px 0;
 }
 .tab-contents ul li span{
-    color: black;
+    color: white;
     font-size: 16px;
     font-weight: 600;
 }
@@ -435,8 +439,8 @@ nav .fas{
 @media only screen and (max-width:650px) {
 
     #header{
-        background-image:linear-gradient(rgba(230, 220, 220, 0.319),rgb(0, 129, 112)),url(IMG_0917.png);
-        background-position: 30px;
+        background-image:linear-gradient(rgba(230, 220, 220, 0.319),rgb(0, 129, 112));
+        
         
         
        
@@ -446,12 +450,16 @@ nav .fas{
     .header-text{
     
         
-        margin-top: 180px;
+        margin-top: 60px;
         width: auto;
         font-size: 16px;
         overflow: hidden;
         transition: transform 0.5s;
        
+    }
+    .header-text img{
+        border-radius: 10px  50px 10px 50px ;
+        display: flex;
     }
    .contact-left{
     margin-top: 10px;
@@ -463,17 +471,7 @@ nav .fas{
         display: none;
 
     }
-    .header-text:hover{
-        background-color:white;
-        border-radius: 10px;
-        color: black;
-        transform: scale(1.1);
-        padding: 20px;
-     
-        
-        
-
-    }
+    
     .project-list{
         grid-gap:1px;
     }
@@ -481,7 +479,7 @@ nav .fas{
         border-radius: 0px;
     }
     .header-text h1{
-        font-size: 25px;
+        font-size: 28px;
         margin-left: 0px;
         text-orientation: upright;
         
@@ -499,12 +497,12 @@ nav .fas{
        
     }
     .header-text h3{
-        font-size: 18px;
+        font-size: 19px;
         padding-top: 5px;
         
     }
     .header-text p{
-        font-size: 14px;
+        font-size: 18px;
         padding-top: 15px;
         
     }
@@ -554,6 +552,12 @@ nav .fas{
         font-weight: 800;
         
 
+    }
+    #about{
+        
+        color: black;
+        background-image: url(—Pngtree—square\ background_54126156.png);
+        background-repeat: -60px;
     }
     .about-col-1,.about-col-2{
         flex-basis: 100%;
