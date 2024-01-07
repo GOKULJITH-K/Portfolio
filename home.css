@@ -15,7 +15,7 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image:url(profile1.png),linear-gradient(rgba(230, 220, 220, 0.319),rgb(0, 129, 112)),url(3421131.jpg);
+    background-image:url(profile1.png),linear-gradient(rgba(237, 217, 217, 0.875),rgb(0, 129, 112)),url(3421131.jpg);
     background-size: cover;
     background-position: 445px;
 }
@@ -439,7 +439,7 @@ nav .fas{
 @media only screen and (max-width:650px) {
 
     #header{
-        background-image:linear-gradient(rgba(230, 220, 220, 0.319),rgb(0, 129, 112));
+        background-image:linear-gradient(rgb(0, 129, 112,0.175),rgba(0, 0, 0));
         
         
         
@@ -455,6 +455,7 @@ nav .fas{
         font-size: 16px;
         overflow: hidden;
         transition: transform 0.5s;
+        color: white;
        
     }
     .header-text img{
@@ -466,6 +467,15 @@ nav .fas{
     padding-bottom: 0px;
     
 
+   }
+   .contact-left .fab {
+    color: white;
+   }
+   .contact-left .fas {
+    color: white;
+   }
+   .contact-left .fa {
+    color: white;
    }
     .resume a{
         display: none;
@@ -516,7 +526,7 @@ nav .fas{
 
     }
     nav ul{
-        background:linear-gradient(rgba(230, 220, 220, 0.821),rgb(0, 129, 112));
+        background:linear-gradient(rgba(230, 220, 220),rgb(0, 129, 112));
         position: fixed;
         top: 0;
         left: -65%;
