@@ -439,7 +439,7 @@ nav .fas{
 @media only screen and (max-width:650px) {
 
     #header{
-        background-image:linear-gradient(rgb(0, 129, 112,0.175),rgba(0, 0, 0));
+        background-image:linear-gradient(rgba(13, 14, 14, 0.675),rgba(0, 0, 0)),url(pexels-aron-visuals-1743165.jpg);
         
         
         
@@ -521,12 +521,13 @@ nav .fas{
         font-size: 25px;
         margin-top: 10px;
         margin-right: 100%;
+        color: white;
 
 
 
     }
     nav ul{
-        background:linear-gradient(rgba(230, 220, 220),rgb(0, 129, 112));
+        background:linear-gradient(rgba(13, 14, 14,0.8),rgba(0, 0, 0));
         position: fixed;
         top: 0;
         left: -65%;
@@ -547,14 +548,14 @@ nav .fas{
         
     }
     nav ul li a{
-         color: black;
+         color: white;
     }
     nav ul .fas{
         position: absolute;
         top: 25px;
         left: 190px;
         cursor: pointer;
-        color: black;
+        color: white;
     }
     .sub-title{
         font-size: 30px;
