@@ -201,7 +201,7 @@ nav ul li a:hover::after{
 }
 .project-list{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(320px,2fr));
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
     grid-gap:80px;
     margin-top: 50px;
 }
@@ -235,7 +235,7 @@ nav ul li a:hover::after{
 }
 .container hr{
     border-left: 3px solid black;
-    height: 30%;
+    height: 240px;
     margin-left:-15px;
     position:absolute;
 }
@@ -308,17 +308,18 @@ nav ul li a:hover::after{
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid rgba(0, 129, 112, 0.333);
+    border: 1px solid black;
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
-    color: black;
+    background-color: black;
+    color: white;
     transition: background 0.5s;
 
 }
 .btn:hover{
-    background: rgb(15, 15, 15);
-    color: white;
+    background-color: white;
+    color:black;
 }
 
 .contact-left{
