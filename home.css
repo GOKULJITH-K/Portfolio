@@ -15,7 +15,7 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image:url(profile1.png),linear-gradient(rgba(237, 217, 217, 0.875),rgb(0, 129, 112)),url(—Pngtree—square\ background_54126156.png);
+    background-image:url(profile1.png),linear-gradient(rgba(237, 217, 217, 0.875),rgb(0, 75, 129)),url(—Pngtree—square\ background_54126156.png);
     background-size: cover;
     background-position: 445px;
 }
@@ -85,15 +85,18 @@ nav ul li a:hover::after{
     padding: 80px 0;
     color: black;
     background-image: url(—Pngtree—square\ background_5412615.png);
+    
+    
 }
 #about img{
     border-radius: 10px  50px 10px 50px ;
     display: flex;
+    
 }
 #general{
     padding: 5px 0;
     color: white;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.875),rgba(8, 105, 127, 0.914));
+    background-image:linear-gradient(rgba(0, 0, 0, 0.875),rgb(8, 15, 37));
     padding: 40px 0px 40px;
 }
 .row{
@@ -173,7 +176,7 @@ nav ul li a:hover::after{
     margin-top: 50px;
 }
 .project-list div{
-    background: linear-gradient(rgba(0, 0, 0, 0.875),rgba(8, 105, 127, 0.914));
+    background: linear-gradient(rgba(0, 0, 0, 0.875),rgb(8, 15, 37));
     padding: 40px;
     font-size: 13px;
     font-weight: 300;
@@ -228,7 +231,7 @@ nav ul li a:hover::after{
 .layer{
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.877),rgb(0, 129, 112));
+    background: linear-gradient(rgba(0, 0, 0, 0.875),rgb(8, 15, 37));
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -356,7 +359,7 @@ form .btn2:hover{
     color: black;
 }
 .footer{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.875),rgba(8, 105, 127, 0.914));
+    background-image: linear-gradient(rgba(0, 0, 0, 0.875),rgb(8, 15, 37));
        
 }
 .footerone{
@@ -623,7 +626,7 @@ nav .fas{
         
     }
     .footer{
-        background-image: linear-gradient(rgba(0, 0, 0, 0.875),rgba(8, 105, 127, 0.914));
+        background-image: linear-gradient(rgba(0, 0, 0, 0.875),rgb(8, 15, 37));
         
     }
     .footerone{
