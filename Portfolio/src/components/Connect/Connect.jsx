@@ -34,7 +34,10 @@ const Connect = () => {
             <div className="footer-first">
                 <div className="footer-left">
                     <h4>GOKULJITH K</h4>
-                    <p>I am a frontend developer from, USA with 10 years of experience in companies like Microsoft, Tesla and Apple.</p>
+                    <p>Passionate Electronics and Communication
+Engineering student skilled in software de-
+velopment and embedded systems, eager to
+drive innovative projects and success</p>
                 </div>
                 <div className="footer-right">
                         <input type='text' placeholder='Enter you email' />
