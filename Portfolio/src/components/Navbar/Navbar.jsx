@@ -8,6 +8,7 @@ const Navbar = () => {
   const navigate = useNavigate();
 
   const handleNavigation = (page) => {
+    setOpen(false);
     navigate(page);
   };
 
@@ -15,7 +16,7 @@ const Navbar = () => {
     <div className='navbar'>
       <ul className='nav-menu'>
         <li><button onClick={() => handleNavigation('/')}>Home</button></li>
-        <li><button onClick={() => handleNavigation('/about')}>About me</button></li>
+        <li><button onClick={() => handleNavigation('/about')}>About</button></li>
         <li><button onClick={() => handleNavigation('/ui')}>UI</button></li>
         <li><button onClick={() => handleNavigation('/webdev')}>Web Dev</button></li>
         <li><button onClick={() => handleNavigation('/embedded')}>Embedded</button></li>
@@ -25,7 +26,7 @@ const Navbar = () => {
       <ul className={`nav-menu-responsive ${isOpen ? 'show' : 'hidden'}`}>
         <li><button onClick={() => handleNavigation('/')}>Home</button></li>
         <hr />
-        <li><button onClick={() => handleNavigation('/about')}>About me</button></li>
+        <li><button onClick={() => handleNavigation('/about')}>About</button></li>
         <hr />
         <li><button onClick={() => handleNavigation('/ui')}>UI</button></li>
         <hr />
