@@ -19,8 +19,8 @@ const Hero = () => {
      <div className="hero-left">
          <p>Full stack developer | Embedded Developer</p>
          <h1>Gokuljith K</h1>
-         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore
-            et dolore magna aliqua. Ut enim ad minim  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea  commodo consequat0.
+         <p>I have faith in my ability to handle complex challenges and create effective solutions, regardless of whether it involves working on advanced technologies, creating innovative products, or enhancing existing systems. Putting my skills and knowledge to work in real-world challenges,
+            collaborating with other professionals, and achieving results that have a positive impact on society and the world excites me.
          </p>
          <button onClick={handleMailtoClick} className='btn'>Contact me</button>
       </div>
