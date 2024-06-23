@@ -47,7 +47,7 @@ drive innovative projects and success</p>
             <hr/>
             <div className="footer-second">
                     <div className="footer-second1">
-                        <p>Read © 2023 Alex Bennett. All rights reserved.</p>
+                        <p>Read © 2024 Gokuljith K. All rights reserved.</p>
                     </div>
                     <div className="footer-second2">
                         <p>Term of Services</p>
