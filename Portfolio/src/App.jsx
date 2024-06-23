@@ -6,6 +6,7 @@ import About from './components/About/About';
 import Connect from './components/Connect/Connect';
 import Webdev from './components/Webdev/Webdev';
 import Ui from './components/UI/Ui';
+import Embedded from './components/Embedded/Embedded';
    
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/webdev" element={<Webdev />} />
           <Route path="/ui" element={<Ui />} />
+          <Route path='/embedded' element={<Embedded />} />
           <Route path="/connect" element={<Connect />} />
         </Routes>
       </div>
