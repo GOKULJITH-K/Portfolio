@@ -25,15 +25,15 @@ const Navbar = () => {
       <Hamburger size={25} toggled={isOpen} toggle={setOpen} />
       <ul className={`nav-menu-responsive ${isOpen ? 'show' : 'hidden'}`}>
         <li><button onClick={() => handleNavigation('/')}>Home</button></li>
-        <hr />
+       
         <li><button onClick={() => handleNavigation('/about')}>About</button></li>
-        <hr />
+ 
         <li><button onClick={() => handleNavigation('/ui')}>UI</button></li>
-        <hr />
+      
         <li><button onClick={() => handleNavigation('/webdev')}>Web Dev</button></li>
-        <hr />
+    
         <li><button onClick={() => handleNavigation('/embedded')}>Embedded</button></li>
-        <hr />
+        
         <li><button onClick={() => handleNavigation('/connect')}>Connect</button></li>
       </ul>
     </div>
