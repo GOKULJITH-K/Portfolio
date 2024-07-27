@@ -13,11 +13,12 @@ const About = () => {
             </div>
             <div className="about-right">
                 
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea  commodo consequat.
+                <p>
+                I enjoy solving complex challenges and creating effective solutions. Whether it’s working on advanced technologies, designing new products, or improving existing systems, I enjoy using my skills in real-world situations. Collaborating with others and achieving results that positively impact society and the world 
+                excites me.
                 </p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea  commodo consequat.
+                <p>With a strong foundation in technology and engineering, I am driven by a passion for solving complex challenges through innovative solutions. My academic journey has been enriched by a significant publication and the acquisition of two valuable certifications, reflecting my commitment to continuous learning and 
+                    professional development.
                 </p>
                
             </div>
