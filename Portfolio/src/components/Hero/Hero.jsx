@@ -1,5 +1,6 @@
 import React from 'react'
 import './hero.css'
+import SEO from '../seo'
 import profile_pic from '../../assets/profile pic.jpg'
 import email_icon from '../../assets/email-icon.png'
 import experience from '../../assets/experience.png'
@@ -17,6 +18,7 @@ const Hero = () => {
   return (
     <div className='hero'>
      <div className="hero-left">
+     <SEO title="Gokuljith K - Home" description="Welcome to the official website of Gokuljith K" />
          <p>Full stack developer | Embedded Developer</p>
          <h1>Gokuljith K</h1>
          <p>I enjoy solving complex challenges and creating effective solutions. Whether it’s working on advanced technologies, designing new products, or improving existing systems, I enjoy using my skills in real-world situations.
@@ -25,7 +27,7 @@ const Hero = () => {
          <button onClick={handleMailtoClick} className='btn'>Contact me</button>
       </div>
       <div className="hero-right">
-           <img className='profile_pic' src={profile_pic} alt='' />  
+           <img className='profile_pic' src={profile_pic} alt='Gokuljith k' />  
            <p className='header-name' ><span>Gokuljith K </span><br /> Full stack developer | Embedded Developer </p>
            <p><img className='icons' src={email_icon} alt=''/> gokuljthk@gmail.com</p>
            <p><img className='icons' src={experience} alt=''/>Fresher</p>
