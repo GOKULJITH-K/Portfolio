@@ -34,7 +34,7 @@ const Navbar = () => {
     
         <li><button onClick={() => handleNavigation('/embedded')}>Embedded</button></li>
         
-        <li><button onClick={() => handleNavigation('/connect')}>Connect</button></li>
+        <li><button className='connectme' onClick={() => handleNavigation('/connect')}>Connect</button></li>
       </ul>
     </div>
   );

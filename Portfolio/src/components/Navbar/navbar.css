@@ -63,6 +63,7 @@
         font-size: 16px;
         background-color: white;
         padding: 40px 0px;
+        padding-bottom: 20px;
         border-radius: 10px;
         transition: ease-in 1s;
         width: 90%;
@@ -80,7 +81,14 @@
         color: black;
         
     }
-    
+    .nav-menu-responsive .connectme{
+        background: #10103C;
+        border-radius: 10px;
+        margin-top: 10px;
+        padding: 10px 30px;
+        color: white;
+        
+    }
     .hamburger-react{
         display: block;
         margin-bottom: 0;
