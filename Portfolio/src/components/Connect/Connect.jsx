@@ -35,8 +35,7 @@ const Connect = () => {
                 <div className="footer-left">
                     <h4>GOKULJITH K</h4>
                     <p>Passionate Electronics and Communication
-Engineering student skilled in software de-
-velopment and embedded systems, eager to
+Engineering student skilled in software development and embedded systems, eager to
 drive innovative projects and success</p>
                 </div>
                 <div className="footer-right">
